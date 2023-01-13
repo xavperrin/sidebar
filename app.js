@@ -4,10 +4,12 @@ const sidebar=document.querySelector('.sidebar');
 
 toggleBtn.addEventListener('click', ()=>{
     sidebar.classList.toggle("show-sidebar");
+    console.log("bop");
 })
 
 closeBtn.addEventListener('click', ()=>{
 
     sidebar.classList.toggle("show-sidebar");
+    console.log("bip");
 
 })
